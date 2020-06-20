@@ -34,6 +34,9 @@ p {
   background-repeat: no-repeat;
 }
 .page .header {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: url(../img/photo.jpg);
   height: 100vh;
 }
@@ -180,7 +183,6 @@ p {
   transition: all 0.3s linear;
   border-radius: 5px;
   padding: 15px 35px;
-  margin-top: 20px;
   border: 0;
 }
 .page .wordpress-theme .content-wordpress-theme .btn-overlay .purchase-now:active {
@@ -228,17 +230,16 @@ p {
   visibility: hidden;
   border-radius: 25px;
   width: 29%;
-  border: 1px solid #8f8f8f;
   position: relative;
   cursor: pointer;
   margin: 0px 20px 50px 20px;
 }
 .page .project .content-project .card .image {
-  width: 348px;
+  width: 100%;
   height: 300px;
   background-image: url(../img/photo.jpg);
   visibility: visible;
-  border-radius: 20px 20px 0px 0px;
+  border-radius: 20px;
 }
 .page .project .content-project .card .basket {
   position: absolute;
@@ -273,7 +274,10 @@ p {
 .page .project .content-project .card:hover {
   visibility: visible;
 }
-.page .project .content-project .overlay-btn-project .btn-project {
+.page .project .overlay-btn-project {
+  text-align: center;
+}
+.page .project .overlay-btn-project .btn-project {
   background-color: #998675;
   color: #fff;
   font-size: 18px;
@@ -284,7 +288,7 @@ p {
   margin-top: 20px;
   border: 0;
 }
-.page .project .content-project .overlay-btn-project .btn-project:active {
+.page .project .overlay-btn-project .btn-project:active {
   transform: scale(0.95);
 }
 .page .waxom-video {
@@ -340,6 +344,7 @@ p {
 .page .mobile-devices .content-mobile-devices .info ul li p {
   color: #797979;
   font-size: 16px;
+  text-align: center;
 }
 .page .mobile-devices .content-mobile-devices .info ul li p:before {
   content: "→";
@@ -411,7 +416,6 @@ p {
   position: relative;
   padding-bottom: 20px;
   visibility: hidden;
-  border: 1px solid #8f8f8f;
 }
 .page .recent-post .content-recent-post .card .date {
   position: absolute;
@@ -462,8 +466,8 @@ p {
 }
 .page .recent-post .content-recent-post .card .image {
   background-image: url(../img/photo15.jpg);
-  width: 300px;
-  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  border-radius: 20px;
   height: 300px;
   visibility: visible;
   background-size: cover;
@@ -502,24 +506,6 @@ p {
 }
 .page .recent-post .content-recent-post .card:hover {
   visibility: visible;
-}
-.page .partners {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../img/logos1.png);
-  height: 200px;
-  padding: 13px 0;
-  background-image: url(../img/photo18.jpg);
-  padding: 200px 0;
-}
-.page .partners .image {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-image: url(../img/logos1.png);
-  height: 200px;
-  padding: 13px 0;
 }
 .page .footer {
   background: #191919;
