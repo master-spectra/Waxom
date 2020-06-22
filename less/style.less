@@ -40,6 +40,7 @@ p {
 .page {
   .header {
     .image;
+    overflow: hidden;
     background-image: url(../img/photo.jpg);
     height: 100vh;
 
@@ -48,7 +49,7 @@ p {
         .top-header {
           padding-top: 50px;    
           display: flex;
-          align-items: baseline;
+          align-items: flex-start;
           justify-content: space-between;
 
           .logo {
@@ -77,6 +78,10 @@ p {
             }
           }
           
+          .mobile-hamburger-menu {
+            display: none;
+          }
+
           .search-basket {
             span {
               font-size: 18px;
@@ -111,7 +116,6 @@ p {
           .text-header {
             text-align: center;
             color: #fff;
-            padding: 0 300px;
             line-height: 170%;
             padding-top: 20px;
           }
@@ -142,6 +146,7 @@ p {
 
   .cards {
     padding: 50px 0;
+    overflow: hidden;
 
     .content-cards {
       display: flex;
@@ -153,18 +158,15 @@ p {
         .icon {
           display: block;
           font-size: 25px;
-          text-align: center;
         }
 
         .title-card {   
           font-size: 25px;
-          text-align: center;
           padding-top: 10px;
         }
 
         .text-card {
           font-size: 16px;
-          text-align: center;
           line-height: 170%;
           padding-top: 10px;
         }
@@ -173,6 +175,8 @@ p {
   }
   
   .ideas {
+    overflow: hidden;
+
     .title-ideas {
       font-size: 30px;
       text-align: center;
@@ -192,10 +196,11 @@ p {
   
   .wordpress-theme {
     background-image: url(../img/Background.jpg);
+    overflow: hidden;
 
     .content-wordpress-theme {
       display: flex;
-      align-items: flex-start;
+      align-items: center;
       justify-content: space-between;
       padding: 20px 0;
 
@@ -212,7 +217,7 @@ p {
         }
 
         .text-wordpress {
-          color: #544a46;
+          color: #fff;
           padding-top: 20px;
         }
       }
@@ -239,7 +244,8 @@ p {
   
   .project {
     padding: 50px 0;
-
+    overflow: hidden;
+    
     .main-info-project {
       text-align: center;
 
@@ -300,7 +306,7 @@ p {
         .basket {
           position: absolute;
           top: 150px;
-          left: 45%;
+          left: 40%;
           font-size: 25px;
           color: #fff;
         }
@@ -308,7 +314,7 @@ p {
         .search {
           position: absolute;
           top: 150px;
-          left: 60%;
+          left: 55%;
           font-size: 25px;
           color: #fff;
         }
@@ -321,11 +327,9 @@ p {
           padding-top: 20px;
         }
 
-        .text {
+        .text-card-project {
           visibility: visible;
-          width: 80%;
           text-align: center;
-          margin-left: 35px;
           padding-bottom: 20px;
           margin-top: 10px;
           line-height: 170%;
@@ -359,6 +363,7 @@ p {
   
   .waxom-video {
     .image;
+    overflow: hidden;
     background-image: url(../img/photo12.jpg);
   
 
@@ -391,6 +396,7 @@ p {
   }
 
   .mobile-devices {
+    overflow: hidden;
     padding: 50px 0px;
 
     .content-mobile-devices {
@@ -399,8 +405,6 @@ p {
       justify-content: space-between;
 
       .info {
-        width: 40%;
-
         .title-mobile-devices {
           font-size: 30px;
           color: #555555;
@@ -409,7 +413,6 @@ p {
         .text-mobile-devices {
           font-size: 16px;
           line-height: 170%;
-          width: 70%;
           padding: 30px 0;
           color: rgb(121, 121, 121);
         }
@@ -441,6 +444,7 @@ p {
 
   .statistic {
     background-image: url(../img/Background.jpg);
+    overflow: hidden;
 
     .content-statistic {
       padding: 50px 0;
@@ -482,6 +486,7 @@ p {
 
   .recent-post {
     padding: 50px 0;
+    overflow: hidden;
 
     .info {
       text-align: center;
@@ -619,6 +624,8 @@ p {
   .footer {
     background: #191919;
     padding-top: 50px;
+    overflow: hidden;
+
 
     .content-top-footer {
       display:  flex;

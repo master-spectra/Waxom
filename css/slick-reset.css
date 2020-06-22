@@ -55,9 +55,3 @@
     right: 0;
     font-size: 0;
 }
-
-@media(max-width: 1200px) {
-    .slick-arrow {
-        display: none !important;
-    }
-}

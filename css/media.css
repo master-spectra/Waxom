@@ -20,6 +20,9 @@
     padding-top: 20px;
     line-height: 200%;
   }
+  .page .header .wrapper .content .down-header .slick-arrow {
+    display: none !important;
+  }
   .page .ideas .image img {
     width: 100%;
   }
@@ -64,5 +67,180 @@
 @media (max-width: 900px) {
   .page .header .wrapper .content .down-header .first-slide .text-header {
     font-size: 14px;
+  }
+  .page .cards .content-cards {
+    flex-wrap: wrap;
+  }
+  .page .cards .content-cards .card {
+    width: 40%;
+    margin-bottom: 20px;
+  }
+  .page .mobile-devices .wrapper .content-mobile-devices img {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  .page .header {
+    padding-bottom: 50px;
+  }
+  .page .header .wrapper .content .top-header .menu {
+    display: none;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu {
+    display: block;
+    text-align: end;
+    visibility: hidden;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu .menu-icon {
+    visibility: visible;
+    font-size: 30px;
+    color: #fff;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu ul {
+    transition: all 0.3s ease;
+    padding-top: 10px;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu ul li {
+    padding-bottom: 10px;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu ul li a {
+    color: #fff;
+    font-size: 18px;
+    text-decoration: none;
+    transition: all 0.3s linear;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu ul li a:hover {
+    color: #945633;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu ul:hover {
+    visibility: visible;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu:hover {
+    visibility: visible;
+  }
+  .page .header .wrapper .content .top-header .mobile-hamburger-menu:active {
+    visibility: hidden;
+  }
+  .page .header .wrapper .content .down-header .first-slide {
+    width: 100%;
+  }
+  .page .header .wrapper .content .down-header .first-slide .text-header {
+    font-size: 16px;
+    line-height: 200%;
+  }
+  .page .header .wrapper .content .down-header .second-slide {
+    width: 100%;
+  }
+  .page .header .wrapper .content .down-header .second-slide .text-header {
+    font-size: 16px;
+    line-height: 200%;
+  }
+  .page .cards .wrapper .content-cards {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page .cards .wrapper .content-cards .card {
+    width: 100%;
+  }
+  .page .cards .wrapper .content-cards .card .text-card {
+    line-height: 200%;
+  }
+  .page .ideas .wrapper .text-ideas {
+    line-height: 200%;
+  }
+  .page .ideas .wrapper .image img {
+    display: none;
+  }
+  .page .wordpress-theme .wrapper .content-wordpress-theme {
+    flex-direction: column;
+  }
+  .page .wordpress-theme .wrapper .content-wordpress-theme .text .text-wordpress {
+    line-height: 200%;
+  }
+  .page .wordpress-theme .wrapper .content-wordpress-theme .btn-overlay {
+    padding-top: 20px;
+  }
+  .page .project .wrapper .content-project .card {
+    width: 100%;
+  }
+  .page .project .wrapper .content-project .card .basket {
+    left: 10%;
+  }
+  .page .project .wrapper .content-project .card .search {
+    left: 80%;
+  }
+  .page .project .wrapper .content-project .card .text-card-project {
+    font-size: 16px;
+    line-height: 200%;
+  }
+  .page .waxom-video .icon .text-video {
+    font-size: 18px;
+  }
+  .page .waxom-video .icon .time {
+    font-size: 16px;
+    padding-top: 20px;
+  }
+  .page .mobile-devices .wrapper .content-mobile-devices {
+    justify-content: center;
+  }
+  .page .mobile-devices .wrapper .content-mobile-devices .info .text-mobile-devices {
+    line-height: 200%;
+  }
+  .page .mobile-devices .wrapper .content-mobile-devices img {
+    display: none;
+  }
+  .page .statistic .wrapper .content-statistic {
+    flex-direction: column;
+  }
+  .page .statistic .wrapper .content-statistic .general-block {
+    padding-bottom: 20px;
+  }
+  .page .recent-post .wrapper .info .title-post {
+    line-height: 200%;
+  }
+  .page .recent-post .wrapper .content-recent-post {
+    flex-direction: column;
+    align-items: center;
+  }
+  .page .recent-post .wrapper .content-recent-post .card {
+    width: 100%;
+  }
+  .page .footer .wrapper .content-top-footer {
+    flex-direction: column;
+  }
+  .page .footer .wrapper .content-top-footer .main-info-footer {
+    width: 100%;
+    padding-bottom: 50px;
+  }
+  .page .footer .wrapper .content-top-footer .main-info-footer .text-footer {
+    line-height: 200%;
+    font-size: 16px;
+  }
+  .page .footer .wrapper .content-top-footer .recent-post-footer {
+    width: 100%;
+  }
+  .page .footer .wrapper .content-top-footer .recent-post-footer .content-recent-post-footer .text-post-footer {
+    line-height: 200%;
+    font-size: 16px;
+  }
+  .page .footer .wrapper .content-top-footer .our-twitter {
+    width: 100%;
+  }
+  .page .footer .wrapper .content-top-footer .our-twitter .content-our-twitter .news .text-first-part {
+    line-height: 200%;
+    font-size: 16px;
+  }
+  .page .footer .wrapper .content-top-footer .our-twitter .content-our-twitter .news .text-second-part {
+    line-height: 200%;
+    font-size: 16px;
+  }
+  .page .footer .wrapper .content-top-footer .dribble-widget {
+    width: 100%;
+  }
+  .page .footer .wrapper .content-top-footer .dribble-widget img {
+    width: 100%;
+  }
+  .page .footer .down-footer .content-down-footer {
+    flex-direction: column;
   }
 }

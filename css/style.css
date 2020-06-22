@@ -37,13 +37,14 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   background-image: url(../img/photo.jpg);
   height: 100vh;
 }
 .page .header .wrapper .content .top-header {
   padding-top: 50px;
   display: flex;
-  align-items: baseline;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .page .header .wrapper .content .top-header .logo .name-website {
@@ -64,6 +65,9 @@ p {
 }
 .page .header .wrapper .content .top-header .menu li a:hover {
   color: #945633;
+}
+.page .header .wrapper .content .top-header .mobile-hamburger-menu {
+  display: none;
 }
 .page .header .wrapper .content .top-header .search-basket span {
   font-size: 18px;
@@ -92,7 +96,6 @@ p {
 .page .header .wrapper .content .down-header .text-header {
   text-align: center;
   color: #fff;
-  padding: 0 300px;
   line-height: 170%;
   padding-top: 20px;
 }
@@ -116,6 +119,7 @@ p {
 }
 .page .cards {
   padding: 50px 0;
+  overflow: hidden;
 }
 .page .cards .content-cards {
   display: flex;
@@ -127,18 +131,18 @@ p {
 .page .cards .content-cards .card .icon {
   display: block;
   font-size: 25px;
-  text-align: center;
 }
 .page .cards .content-cards .card .title-card {
   font-size: 25px;
-  text-align: center;
   padding-top: 10px;
 }
 .page .cards .content-cards .card .text-card {
   font-size: 16px;
-  text-align: center;
   line-height: 170%;
   padding-top: 10px;
+}
+.page .ideas {
+  overflow: hidden;
 }
 .page .ideas .title-ideas {
   font-size: 30px;
@@ -155,10 +159,11 @@ p {
 }
 .page .wordpress-theme {
   background-image: url(../img/Background.jpg);
+  overflow: hidden;
 }
 .page .wordpress-theme .content-wordpress-theme {
   display: flex;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
   padding: 20px 0;
 }
@@ -172,7 +177,7 @@ p {
   font-size: 20px;
 }
 .page .wordpress-theme .content-wordpress-theme .text .text-wordpress {
-  color: #544a46;
+  color: #fff;
   padding-top: 20px;
 }
 .page .wordpress-theme .content-wordpress-theme .btn-overlay .purchase-now {
@@ -190,6 +195,7 @@ p {
 }
 .page .project {
   padding: 50px 0;
+  overflow: hidden;
 }
 .page .project .main-info-project {
   text-align: center;
@@ -244,14 +250,14 @@ p {
 .page .project .content-project .card .basket {
   position: absolute;
   top: 150px;
-  left: 45%;
+  left: 40%;
   font-size: 25px;
   color: #fff;
 }
 .page .project .content-project .card .search {
   position: absolute;
   top: 150px;
-  left: 60%;
+  left: 55%;
   font-size: 25px;
   color: #fff;
 }
@@ -262,11 +268,9 @@ p {
   text-align: center;
   padding-top: 20px;
 }
-.page .project .content-project .card .text {
+.page .project .content-project .card .text-card-project {
   visibility: visible;
-  width: 80%;
   text-align: center;
-  margin-left: 35px;
   padding-bottom: 20px;
   margin-top: 10px;
   line-height: 170%;
@@ -295,6 +299,7 @@ p {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  overflow: hidden;
   background-image: url(../img/photo12.jpg);
 }
 .page .waxom-video .icon {
@@ -320,15 +325,13 @@ p {
   color: #fff;
 }
 .page .mobile-devices {
+  overflow: hidden;
   padding: 50px 0px;
 }
 .page .mobile-devices .content-mobile-devices {
   display: flex;
   align-items: center;
   justify-content: space-between;
-}
-.page .mobile-devices .content-mobile-devices .info {
-  width: 40%;
 }
 .page .mobile-devices .content-mobile-devices .info .title-mobile-devices {
   font-size: 30px;
@@ -337,7 +340,6 @@ p {
 .page .mobile-devices .content-mobile-devices .info .text-mobile-devices {
   font-size: 16px;
   line-height: 170%;
-  width: 70%;
   padding: 30px 0;
   color: #797979;
 }
@@ -359,6 +361,7 @@ p {
 }
 .page .statistic {
   background-image: url(../img/Background.jpg);
+  overflow: hidden;
 }
 .page .statistic .content-statistic {
   padding: 50px 0;
@@ -392,6 +395,7 @@ p {
 }
 .page .recent-post {
   padding: 50px 0;
+  overflow: hidden;
 }
 .page .recent-post .info {
   text-align: center;
@@ -510,6 +514,7 @@ p {
 .page .footer {
   background: #191919;
   padding-top: 50px;
+  overflow: hidden;
 }
 .page .footer .content-top-footer {
   display: flex;
